@@ -1,0 +1,114 @@
+# ---------------------------------------------------------------------------
+# Site Settings
+# ---------------------------------------------------------------------------
+title: "The Homelab Files"
+subtitle: "Notes from building, breaking, and fixing my own infrastructure"
+description: >-
+  A running log of my homelab: self-hosted services, networking, automation,
+  and the occasional 2am outage. Eventually a portfolio of my IT/DevOps work.
+url: ""   # TODO: replace with your actual GitHub Pages URL
+baseurl: ""                          # keep empty for a username.github.io root site
+repository: ""  # TODO: replace with your repo path
+locale: "en-US"
+
+# Author / footer info — fill this in, it powers the sidebar profile
+author:
+  name: "Ben Nichols"
+  avatar: "/assets/images/avatar.jpg"   # add a square image here, or delete this line
+  bio: "Homelabber. Breaker of production. Fixer of production."
+  location: "Earth"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sediment5193"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/benjamin-nichols-11a809138/"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sediment5193"
+
+# ---------------------------------------------------------------------------
+# Theme
+# ---------------------------------------------------------------------------
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "neon"   # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+# ---------------------------------------------------------------------------
+# Build settings
+# ---------------------------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:year/:month/:day/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/Denver
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
+# ---------------------------------------------------------------------------
+# Collections — projects get their own collection, separate from blog posts
+# ---------------------------------------------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# ---------------------------------------------------------------------------
+# Defaults — sets layout/behavior per content type so you don't repeat
+# front matter on every single post/page
+# ---------------------------------------------------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# ---------------------------------------------------------------------------
+# Navigation (links to _data/navigation.yml)
+# ---------------------------------------------------------------------------
+# See _data/navigation.yml for the actual nav links
+
+# ---------------------------------------------------------------------------
+# Excludes from the generated site
+# ---------------------------------------------------------------------------
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
