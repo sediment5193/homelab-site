@@ -18,9 +18,6 @@ assets/           Images and other static files
 
 ## First-time setup
 
-1. **Rename the repo** to `<your-github-username>.github.io` for a root
-   user site (or keep a custom name and set `baseurl` in `_config.yml` to
-   `/repo-name` for a project site).
 2. Update `_config.yml`: `url`, `repository`, `author`, and the nav/footer
    links.
 3. Replace placeholder text in `_pages/about.md`.

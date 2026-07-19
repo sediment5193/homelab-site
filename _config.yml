@@ -15,8 +15,8 @@ locale: "en-US"
 author:
   name: "Ben Nichols"
   avatar: "/assets/images/avatar.jpg"   # add a square image here, or delete this line
-  bio: "Homelabber. Breaker of production. Fixer of production."
-  location: "Earth"
+  bio: "Can't fix my mom's printer"
+  location: "Denver, CO"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
