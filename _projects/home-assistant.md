@@ -9,7 +9,9 @@ tech_stack: [Proxmox, Docker, Home Assistant]
 
 ## Overview
 
-Home Assistant is a platform designed to connect smart devices and other additional data together. It allows you to trigger actions based on specific inputs or events. For instance, you can setup a button pressed on the app to turn on a smart bulb and change the color temperature based on the time of day. The sky's the limit and you can really take any set of inputs and conditions and then run a very complex set of actions. You're only limited by your hardware and your immagination.
+Home Assistant is a platform designed to connect smart devices and other additional data together. It allows you to trigger actions based on specific inputs or events. For instance, you can setup a button pressed on the app to turn on a smart bulb and change the color temperature based on the time of day. 
+
+The sky's the limit and you can really take any set of inputs and conditions and then run a very complex set of actions. You're only limited by your hardware and your immagination.
 
 ## Stack
 
@@ -23,7 +25,9 @@ Home Assistant is pretty useless without hardware to control. Here's what I'm ru
 
 ### Hub
 
-Unless you're using Wi-Fi compatible hardware, your hub will be what actually communicates with everything. I've seen alot of people mention that running a bunch of Wi-Fi comptible devices can greatly impact your network's performance. I chose a hub that is compatible with both Zigbee and Z-Wave protocols so that I don't get locked into one thing. Currently I've only got Zigbee hardware though.
+Unless you're using Wi-Fi compatible hardware, your hub will be what actually communicates with everything. I've seen alot of people mention that running a bunch of Wi-Fi comptible devices can greatly impact your network's performance. 
+
+I chose a hub that is compatible with both Zigbee and Z-Wave protocols so that I don't get locked into one thing. Currently I've only got Zigbee hardware though.
 
 - [Aeotec Z-Stick 10 Pro](https://www.amazon.com/Z-Stick-Pro-HomeAssistant-Zigbee2MQTT-Controller/dp/B0DV9RFSR9?crid=1C5UJEQ3ZBRHF&dib=eyJ2IjoiMSJ9.91cUVRCT7ubD_NiYa-NZ239XuIhUs8BK2hU7IYUwUK_ehJ0LiO71CFpBv-O9gK-3g-knp13T_i7nEYq30sGCghV1QV4S-Emqw_bsxtDbbp96A3ApmmZzOoJM3hRzJhwuTlhOCXa7HUjpyVuo6p1IYHQzo35HkA_bRrUC-G9CK3SIo6PjiuFWlVVFb_dJPJJJC0nEknW71alRtjepDBxG8vB18Hz-dYHTO0RdaTVHf-yhYWp0nwCS8dxeXqTIOEVN8SmtdOR-_AYV9KVkawLOIHK4Oj7zEt3oEAfnkSgclyQ.ZxTlBtlO8SlFW_T3ZX3d_-QJZ3vebur_NzHlkjNcA2A&dib_tag=se&keywords=aeotec+smart+home+hub&qid=1784584993&sprefix=aeote%2Caps%2C285&sr=8-5)
 
