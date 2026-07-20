@@ -38,5 +38,5 @@ sequenceDiagram
 
 ## Challenges
 
-This is also the setup that bit me once — see the [about page](/about/)
+This is also the setup that bit me once — see the [about page](/homelab-site/about/about/)
   for the outage story
