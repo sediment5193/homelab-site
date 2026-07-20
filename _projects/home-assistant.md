@@ -9,7 +9,7 @@ tech_stack: [Proxmox, Docker, Home Assistant]
 
 ## Overview
 
-Home Assistant is a platform designed to connect smart devices and other additional data together. It allows you to trigger actions based on specific inputs or events. For instance, you can setup a button pressed on the app to turn on a smart buld and change the color temperature based on the time of day. The sky's the limit and you can really take any set of inputs and conditions and then run a very complex set of actions. You're only limited by your hardware and your immagination.
+Home Assistant is a platform designed to connect smart devices and other additional data together. It allows you to trigger actions based on specific inputs or events. For instance, you can setup a button pressed on the app to turn on a smart bulb and change the color temperature based on the time of day. The sky's the limit and you can really take any set of inputs and conditions and then run a very complex set of actions. You're only limited by your hardware and your immagination.
 
 ## Stack
 
