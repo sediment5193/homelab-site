@@ -16,14 +16,6 @@ index.md          Homepage — lists recent posts
 assets/           Images and other static files
 ```
 
-## First-time setup
-
-2. Update `_config.yml`: `url`, `repository`, `author`, and the nav/footer
-   links.
-3. Replace placeholder text in `_pages/about.md`.
-4. Delete or edit `_posts/2026-07-15-welcome-to-the-lab.md` and
-   `_projects/example-project.md` once you have real content.
-
 ## Local development
 
 Requires Ruby (3.x recommended) and Bundler.

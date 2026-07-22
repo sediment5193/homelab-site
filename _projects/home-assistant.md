@@ -3,7 +3,7 @@ title: "Home Assistant"
 date: 2026-07-15
 excerpt: "Complex automations that make day to life simpler"
 header:
-  teaser: /assets/images/homeassistant-teaser.png   # optional, delete if you don't have one
+  teaser: /assets/images/homeassistant-teaser.png
 tech_stack: [Proxmox, Docker, Home Assistant]
 ---
 
@@ -47,7 +47,15 @@ Buttons are handy remotes that allow you to manually trigger scripts without nee
 
 ## What it does
 
-As of right now, my smarthome is entirely focused around ensuring lighting happens as automatically as possible.
+My smarthome is entirely focused around ensuring lighting happens as automatically as possible. Whenever I think about a new automation or change to an existing script, I think about it from one perspective: how can I make the lights match the mood without having to get up and flip a switch or pull out a phone and press a button. With this in mind, I've segmented everything based on time of day as follows:
+
+- Early Morning
+- Morning
+- Daytime
+- Evening
+- Night
+
+How a button press, motion sensor trigger, or other automation affects the lighting depends on the time of day.
 
 ## Setup
 
