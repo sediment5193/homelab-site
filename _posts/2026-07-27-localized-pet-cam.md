@@ -14,21 +14,35 @@ My wife and I recently got a cat named Ollie. He's super adorable. When we're aw
 
 My main concerns with this are: security, reliability, and pricing.
 
+### Security
+
 My first goal is to make sure our camera doesn't wind up on one of those hacked feed websites where you can just freely watch random misconfigured security cameras / pet cameras. For now, I'll just keep everything internal and connect with a VPN. Maybe this will change down the road.
+
+### Reliability
 
 I also want to make sure that this thing actually works even when we're across the country. Using a trusted camera and NVR is a good start. I'd also like to implement uptime monitoring and ensure everything is tested out before we spend time away to identify gaps.
 
+### Pricing
+
 To keep things practical, I also want to make sure I'm not having to buy endless TBs of storage to hold all the footage. I just don't have the money.
+
+### Other
 
 Lastly, some sort of Home Assistant integration would be great. I've seen some pretty cool setups with automations that involve cameras. I'd like to play with this down the road as well.
 
 ## The Plan
 
+### Enter Frigate
+
 Very quickly in my search I came across [Frigate NVR](https://frigate.video/). An open-source network video recorder that ticks all the boxes and more. Everything works completely locally, it's a popular project relied on by many to record video, and it's got a lot of clever ways built in to only store the footage that matters. Last, but not least, it's got a very strong Home Assistant integration.
 
-To keep things simple, I'll start with a single camera recommended to me by a friend, the [Reolink E1 Pro](https://www.amazon.com/dp/B08RS4C67L). This supports RTSP which allows it to connect to Frigate and outputs 2 video streams. One stream is the original quality, full-res stream, the other is a low-res copy of the first.
+### The Camera
 
-This low-res stream can be routed to Frigate's AI object detection engine with frame rates as low as 5 fps. This will give my humble HP MP9 G4 breathing room to run image recognition continuously. The object detection engine can be configured to trigger a video recording when a target from a preset list is seen. Once the target is seen, the full-res video stream is recorded. The NVR also has retention settings to prevent this bank of recordings from growing too large.
+To keep things simple, I'll start with a single camera recommended to me by a friend, the [Reolink E1 Pro](https://www.amazon.com/dp/B08RS4C67L). This supports RTSP which allows it to connect to Frigate and outputs 2 video streams. One stream is the original quality, full-res stream, the other is a low-res copy.
+
+### Why This Should Work
+
+This low-res copy stream can be routed to Frigate's AI object detection engine with frame rates as low as 5 fps. This will hopefully give my humble HP MP9 G4 breathing room to run image recognition continuously. The object detection engine can be configured to trigger a video recording when a target from a preset list is seen. Once the target is seen, the full-res video stream is recorded. The NVR also has retention settings to prevent this bank of recordings from growing too large.
 
 Here's a visual breakdown of this process:
 
@@ -48,6 +62,8 @@ flowchart TD
     C --> E(Docker)
     D --> E
 </div>
+
+### Storage Requirements
 
 With this setup, I can minimize storage space while keeping up with what our cat has been doing while we're away. Using this [calculator from Frigate's documentation](https://calculator.ipconfigure.com/), I feel confident in setting aside 100Gb for footage storage.
 
