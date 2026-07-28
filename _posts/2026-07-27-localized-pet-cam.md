@@ -8,7 +8,7 @@ excerpt: "My plan to build a pet cam service without breaking the bank."
 
 ## Overview
 
-My wife and I recently got a cat named Ollie. He's super adorable. When we're away, we want to keep an eye on him. So, my next project will be to build a pet cam.
+My wife and I recently got a cat named Ollie. He's super adorable. When we're away though, we want to keep an eye on him. So, my next project will be to build a pet cam.
 
 ## Requirements
 
@@ -43,10 +43,16 @@ flowchart TD
         B --> C
     end
 
-    B --> D(Home Assistant)
+    B <--> D(Home Assistant)
 
     C --> E(Docker)
     D --> E
 </div>
 
+With this setup, I can minimize storage space while keeping up with what our cat has been doing while we're away. Using this [calculator from Frigate's documentation](https://calculator.ipconfigure.com/), I feel confident in setting aside 100Gb for footage storage.
+
 From there, Home Assistant has the ability to display live feeds, recorded videos, and use detection data to trigger automations. That's the plan for now. I'll keep things updated with progress.
+
+## Next Steps
+
+The obvious next step from here will be to buy a camera. Once I've done that and configuired everything I'll have a better idea of how well my current hardware can run the object detection AI. My hope is that things will run smoothly with just 1 camera. If things get sluggish though, I can add an external TPU to offload most of the heavy lifting from the AI processing.
