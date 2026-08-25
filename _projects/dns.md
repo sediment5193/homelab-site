@@ -1,7 +1,7 @@
 ---
-title: "DNS Filtering and Recursive DNS Resolver"
+title: "DNS Filtering and Recursive Resolver"
 date: 2026-07-15
-excerpt: ""
+excerpt: "Privately and securely complete the requests that are needed"
 header:
   teaser: /assets/images/pihole.png
 tech_stack: [Proxmox, Ubuntu Server, Pi-Hole, Unbound]

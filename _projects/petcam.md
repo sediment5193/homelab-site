@@ -1,7 +1,7 @@
 ---
 title: "Smart Petcam"
 date: 2026-07-15
-excerpt: "Local, AI Powered, Network Video Recorder"
+excerpt: "Local, AI powered, network video recorder"
 header:
   teaser: /assets/images/frigate-teaser.png
 tech_stack: [Proxmox, Ubuntu Server, Docker, Frigate NVR]

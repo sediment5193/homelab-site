@@ -1,5 +1,5 @@
 ---
-title: "Smart Document Organization"
+title: "Document Organization"
 date: 2026-07-15
 excerpt: "Tag-based system for storing the most important documents"
 header:
