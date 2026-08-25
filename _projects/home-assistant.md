@@ -1,10 +1,10 @@
 ---
-title: "Home Assistant"
+title: "Smarthome Automations"
 date: 2026-07-15
 excerpt: "Complex automations that make day to life simpler"
 header:
   teaser: /assets/images/homeassistant-teaser.png
-tech_stack: [Proxmox, Docker, Home Assistant]
+tech_stack: [Proxmox, Ubuntu Server, Docker, Home Assistant]
 ---
 
 ## Overview

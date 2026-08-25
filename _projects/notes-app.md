@@ -1,0 +1,8 @@
+---
+title: "Local Cloud Based Notes App"
+date: 2026-07-15
+excerpt: "Notes that backup and sync between devices"
+header:
+  teaser: /assets/images/affine-teaser.png
+tech_stack: [Proxmox, Ubuntu Server, Docker, Affine]
+---
