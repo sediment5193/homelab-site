@@ -5,12 +5,10 @@ permalink: /projects/
 author_profile: true
 ---
 
-<p>***In progress***</p>
-
-<p>I am still working on filling in all my projects on this page.</p>
-
 <p>A structured look at individual pieces of the homelab: what it does, how
 it's built, and what I learned.</p>
+
+<p>Some of these are placeholders. I am still working on filling in the details on all my projects.</p>
 
 {% assign projects = site.projects | sort: 'title' %}
 {% assign grouped = projects | group_by: 'category' %}

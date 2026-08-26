@@ -1,7 +1,7 @@
 ---
 title: "Smart Petcam"
 date: 2026-07-15
-category: "Services"
+category: "Services: Day to Day"
 excerpt: "Local, AI powered, network video recorder"
 header:
   teaser: /assets/images/frigate-teaser.png

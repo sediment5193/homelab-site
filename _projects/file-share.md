@@ -1,6 +1,6 @@
 ---
 title: "File Sharing"
-category: "Services"
+category: "Services: Organization"
 date: 2026-07-15
 excerpt: "Quickly backup files and move them between devices"
 header:

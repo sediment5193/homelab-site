@@ -1,7 +1,7 @@
 ---
 title: "Remote Photo/Video Backups"
 date: 2026-07-15
-category: "Services"
+category: "Services: Organization"
 excerpt: "Backing up all our random photos of our cat"
 header:
   teaser: /assets/images/immich-teaser.png

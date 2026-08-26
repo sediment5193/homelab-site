@@ -1,7 +1,7 @@
 ---
 title: "Smarthome Automations"
 date: 2026-07-15
-category: "Services"
+category: "Services: Day to Day"
 excerpt: "Complex automations that make day to life simpler"
 header:
   teaser: /assets/images/homeassistant-teaser.png
