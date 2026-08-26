@@ -1,6 +1,7 @@
 ---
 title: "Docker"
 date: 2026-07-15
+category: "Network/Infra"
 excerpt: "Lightweight Type 2 hypervisor"
 header:
   teaser: /assets/images/docker-teaser.png

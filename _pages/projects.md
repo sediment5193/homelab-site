@@ -13,6 +13,13 @@ author_profile: true
 it's built, and what I learned.</p>
 
 {% assign projects = site.projects | sort: 'title' %}
-{% for post in projects %}
-  {% include archive-single.html type="list" %}
+{% assign grouped = projects | group_by: 'category' %}
+{% assign grouped = grouped | sort: 'name' %}
+
+{% for group in grouped %}
+  <h2>{{ group.name }}</h2>
+
+  {% for post in group.items %}
+    {% include archive-single.html type="list" %}
+  {% endfor %}
 {% endfor %}
