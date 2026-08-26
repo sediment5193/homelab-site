@@ -1,5 +1,5 @@
 ---
-title: "DNS Filtering and Recursive Resolver"
+title: "DNS Filtering and Recursive Resolution"
 date: 2026-07-15
 category: "Network/Infra"
 excerpt: "Privately and securely complete the requests that are needed"

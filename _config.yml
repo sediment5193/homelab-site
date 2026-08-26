@@ -6,15 +6,15 @@ subtitle: "Notes from building, breaking, and fixing my own infrastructure"
 description: >-
   A running log of my homelab: self-hosted services, networking, automation,
   and the occasional 2am outage. Eventually a portfolio of my IT/DevOps work.
-url: ""   # TODO: replace with your actual GitHub Pages URL
+url: "https://sediment5193.github.io/homelab-site/"
 baseurl: ""                          # keep empty for a username.github.io root site
-repository: ""  # TODO: replace with your repo path
+repository: "https://github.com/sediment5193/homelab-site"
 locale: "en-US"
 
-# Author / footer info — fill this in, it powers the sidebar profile
+# Author / footer info
 author:
   name: "Ben Nichols"
-  avatar: "/assets/images/avatar.jpg"   # add a square image here, or delete this line
+  avatar: "/assets/images/avatar.jpg"
   bio: "Can't fix my mom's printer"
   location: "Denver, CO"
   links:
