@@ -5,7 +5,11 @@ permalink: /about/
 author_profile: true
 ---
 
-My homelab started with Pi-hole. I was curious how DNS actually worked under the hood. One ad-blocking DNS server turned into a deeper interest in networking and self-hosting. Since then it's grown into a study platform. As I've studied for certifications and picked up new skills, I've used the lab to actually build the things I'm learning about, rather than just reading theory. 
+## My Goal
+
+My homelab started with Pi-hole. I was curious how DNS actually worked under the hood. One ad-blocking DNS server turned into a deeper interest in networking and self-hosting. Since then it's grown into a study platform. As I've studied for certifications and picked up new skills, I've used the lab to actually build the things I'm learning about, rather than just reading theory.
+
+## Looking Forward
 
 The goal now is to keep pushing it toward something genuinely resilient, available, and secure. I'm working to build the kind of environment that mirrors what's expected in a real IT/DevOps role. 
 
