@@ -1,5 +1,5 @@
 ---
-title: "Offline Media Server"
+title: "Digital Media Streaming Server"
 date: 2026-07-15
 category: "Services: Organization"
 excerpt: "A place to watch all of our movies"
