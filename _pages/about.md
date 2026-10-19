@@ -43,8 +43,3 @@ A quick snapshot of what's currently running:
 
 - **Automation / IaC:** 
   - Docker Compose
-
-## Elsewhere
-
-- [GitHub](https://github.com/sediment5193)
-- [LinkedIn](https://linkedin.com/in/benjamin-nichols-11a809138)
