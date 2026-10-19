@@ -8,13 +8,13 @@ header:
 tech_stack: [Proxmox, Ubuntu Server, Jellyfin]
 ---
 
+## Overview
+
+Jellyfin is a media server you can use to organize and play back video based content such as TV Shows and Movies on other devices. It's pretty much like having your own digital streaming service with all of the media you own.
+
 ## Stack
 
 This server is running on Ubuntu server housed in it's own CT on Proxmox.
-
-## What it does
-
-Jellyfin is a media server you can use to organize and play back video based content such as TV Shows and Movies on other devices. It's pretty much like having your own digital streaming service with all of the media you own.
 
 ## Installation
 
@@ -89,7 +89,7 @@ There are also some specific permissions that Jellyfin requires. It needs read, 
 
 The actual install and setup process is extremely straight forward on this one and I didn't run into any issues there. Two issues did come up during the post install process though.
 
-First, when scanning for media, nothing was found at all. This was caused by a lack of permissions for the directories my media is housed in. It tooka while of digging through forums to find what causes this. I've since lost the post that solved my issue, but giving execute permissions to all of the folders in my media directories execute fixed this right away.
+First, when scanning for media, nothing was found at all. This was caused by a lack of permissions for the directories my media is housed in. It took a while of digging through forums to find what causes this. I've since lost the post that solved my issue, but giving execute permissions to all of the folders in my media directories execute fixed this right away.
 
 Once everything discovered, I also ran into an error when trying to play my media for the first time: 'Playback failed due to a fatal player error.' I found this was due a lack of read permissions on the actual media files themselves. This is pretty obvious looking back, but this is something I didn't think about initially so I figuired it's worth bringing up.
 
@@ -101,5 +101,5 @@ Something I want to improve in the future is how I manage my media. As of right 
 
 ## Resources
 
-- (Jellyfin Docs - Installtion > Linux)[https://jellyfin.org/docs/general/installation/linux/]
-- (Jellyfin Docs - Post-Install Setup)[https://jellyfin.org/docs/general/post-install/setup-wizard]
+- [Jellyfin Docs - Installtion > Linux](https://jellyfin.org/docs/general/installation/linux/)
+- [Jellyfin Docs - Post-Install Setup](https://jellyfin.org/docs/general/post-install/setup-wizard)
