@@ -30,7 +30,7 @@ The install on this is extremely simple using Uptime Kuma's pre-made .yml file. 
 
 ## Setup
 
-Get started with the setup process by pointing a web browser to the URL of your new service. It will start by asking you to setup a username and password. From there, the majority of the details needed autofill based on data from your host. The only selection I had to make was how I wanted the database to built. I went for the SQLite option since it's the default and simplest choice. The service literally builds the DB for you.
+Get started with the setup process by pointing a web browser to the URL of your new service. It will start by asking you to setup a username and password. From there, the majority of the details needed autofill based on data from your host. The only selection I had to make was how I wanted the database to be built. I went for the SQLite option since it's the default and simplest choice. The service literally builds the DB for you.
 
 Once that's done, you're ready to setup monitors and notifications. I'm still in the process of setting up all of my monitors, but there are several monitor types to choose from.
 
