@@ -39,7 +39,7 @@ A quick snapshot of what's currently running:
   - Peplink B-One Router — Fancy switches to come as the need presents itself
 
 - **Monitoring:** 
-  - Grafana + Prometheus — (Coming Soon)
+  - Uptime Kuma
 
 - **Automation / IaC:** 
   - Docker Compose
