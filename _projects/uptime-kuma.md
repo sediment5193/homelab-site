@@ -10,9 +10,7 @@ tech_stack: [Proxmox, Ubuntu Server, Docker, Uptime Kuma]
 
 ## Overview
 
-A brown out at my apartment took down the Proxmox Node hosting my DNS Server. When I got home, there were no other signs of the power loss, but my internet stopped working. This is when I realized that in addition to a backup DNS server, I need uptime monitoring to notify me when something like this happens so that I can mitigate it more quickly. This is where Uptime Kuma comes into play.
-
-Uptime Kuma is a self hosted observability tool you can use to keep tabs on the status of all your self-hosted services. Notifications can be setup to fire when a monitor tiggers so that when something needs attention, you knwo right away.
+Uptime Kuma is a self hosted observability tool you can use to keep tabs on the status of all your self-hosted services. When something goes down, it's logged in thedashboard. Notifications can be setup to fire when a monitor tiggers so that when something needs attention, you know right away. Status pages can be created as well for an all in one view of what's happening.
 
 ## Stack
 
