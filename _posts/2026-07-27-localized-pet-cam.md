@@ -1,5 +1,5 @@
 ---
-title: "Localized DNS Petcam"
+title: "Localized Petcam"
 date: 2026-07-27
 categories: [networking, physical-security]
 tags: [docker, home-assistant, frigate]
