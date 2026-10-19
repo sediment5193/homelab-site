@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Uptime Monitoring and Observability"
 date: 2026-10-19
 category: "Network/Infra"
 excerpt: "Now you're always on-call"
