@@ -8,8 +8,6 @@ header:
 tech_stack: [Proxmox, Ubuntu Server, Jellyfin]
 ---
 
-https://jellyfin.org/docs/general/installation/linux/
-
 ## Stack
 
 This server is running on Ubuntu server housed in it's own CT on Proxmox.
@@ -20,28 +18,35 @@ Jellyfin is a media server you can use to organize and play back video based con
 
 ## Installation
 
-Start by spinning up a new CT in Proxmox by clicking the new CT Button and following the steps in the wizard. I gave mine 4GiB of mem and swap as well as 3 CPU cores. This should be plenty of firepower to live decode media to 1 or 2 devices, which all I expect to need for the time being. From there you can install your OS, in this case I used Ubuntu Server 
+Start by spinning up a new CT in Proxmox by clicking the new CT Button and following the steps in the wizard. I gave mine 4GiB of memory and swap as well as 3 CPU cores. This should be plenty of firepower to live decode media to 1 or 2 devices, which all I expect to need for the time being. From there you can install your OS, in this case I used Ubuntu Server 
 
 As always, make sure you check for updates and upgrades once the OS is up and running.
 
-'''
-sudo apt update && upgrade -y
-reboot
-'''
+<pre>
+  <code>
+    sudo apt update && upgrade -y
+    reboot
+  </code>
+</pre>
 
 From there, download the official install script and verify on system.
 
-'''
-curl -s https://repo.jellyfin.org/install-debuntu.sh -O && \
-curl -s https://repo.jellyfin.org/install-debuntu.sh.sha256sum -O && \
-sha256sum -c install-debuntu.sh.sha256sum
-'''
+
+<pre>
+  <code>
+    curl -s https://repo.jellyfin.org/install-debuntu.sh -O && \
+    curl -s https://repo.jellyfin.org/install-debuntu.sh.sha256sum -O && \
+    sha256sum -c install-debuntu.sh.sha256sum
+  </code>
+</pre>
 
 Then run the install script. It will guide you through the install process.
 
-'''
-sudo bash install-debuntu.sh
-'''
+<pre>
+  <code>
+    sudo bash install-debuntu.sh
+  </code>
+</pre>
 
 You have succesfully installed Jellyfin. It's really that easy.
 
@@ -51,12 +56,29 @@ From there, you can point a web browser to your port 8096 on your new container 
 
 From there you can add media libraries. I setup two folders to house media and added them on this step.
 
-'''
-/home/Movies/
-/home/Shows/
-'''
+<pre>
+  <code>
+    /home/Movies
+    /home/Shows
+  </code>
+</pre>
 
-Jellyfin reccomends seperating your media types into directories and then further sorting each movie or show into a sub-directories using a specific format: Media Title (Year). For example, the movie Inception gets places in /home/Movies/'Inception (2010)'/. Shows get further segmented by season. The Office Season 1 gets placed in /home/Shows/'The Office (2005)'/'Season 01'/.
+Jellyfin reccomends seperating your media types into directories and then further sorting each movie or show into a sub-directories using a specific format: Media Title (Year). For example, the movie Inception gets places in the following directory:
+
+
+<pre>
+  <code>
+    /home/Movies/'Inception (2010)'
+  </code>
+</pre>
+
+Shows get further segmented by season. The Office Season 1 gets organized like this: 
+
+<pre>
+  <code>
+    /home/Shows/'The Office (2005)'/'Season 01'
+  </code>
+</pre>
 
 Seperating everything like this can be time consuming to get started if you have a lot of media you're organizing, but it makes Jellyfin's metdata analysis much more accurate so I believe it's worth the effort.
 
