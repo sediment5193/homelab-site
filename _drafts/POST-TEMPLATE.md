@@ -8,4 +8,8 @@ excerpt: ""
 
 ## Overview
 
+## Setup
+
 ## Next Steps
+
+## Resources
