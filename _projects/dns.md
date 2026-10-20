@@ -1,7 +1,7 @@
 ---
 title: "DNS Filtering and Recursive Resolution"
 date: 2026-07-15
-category: "Network/Infra"
+category: "Network"
 excerpt: "Privately and securely complete the requests that are needed"
 header:
   teaser: /assets/images/pihole.png

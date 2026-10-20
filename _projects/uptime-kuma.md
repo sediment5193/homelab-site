@@ -1,7 +1,7 @@
 ---
 title: "Uptime Monitoring and Observability"
 date: 2026-10-19
-category: "Network/Infra"
+category: "Infra"
 excerpt: "Now you're always on-call"
 header:
   teaser: /assets/images/tmp-teaser.png

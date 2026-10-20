@@ -1,7 +1,7 @@
 ---
 title: "Remote Access"
 date: 2026-07-15
-category: "Network/Infra"
+category: "Network"
 excerpt: "Securely accessing self-hosted services from anywhere in the world"
 header:
   teaser: /assets/images/tailscale-teaser.png
