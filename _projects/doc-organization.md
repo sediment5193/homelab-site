@@ -1,7 +1,7 @@
 ---
 title: "Document Organization"
 date: 2026-07-15
-category: "Services: Organization"
+category: "File Organization"
 excerpt: "Tag-based system for storing the most important documents"
 header:
   teaser: /assets/images/paperless-teaser.png
