@@ -1,8 +1,8 @@
 ---
-title: "Pet cam update"
+title: "Petcam Project update"
 date: 2026-08-27
 categories: [networking, physical-security]
-tags: [docker, home-assistant, frigate]
+tags: [docker, frigate]
 excerpt: "Why buy a security camera when a webcam does the trick?"
 ---
 
