@@ -8,7 +8,12 @@ Hey, I'm Ben, a Customer Support Engineer at Checkr. This site is where I docume
 
 ## What's here
 
-- [**Posts**](https://sediment5193.github.io/homelab-site/posts/) — build logs, troubleshooting notes, and snapshots of components as I'm building them out
+### Projects
 
-- [**Projects**](https://sediment5193.github.io/homelab-site/projects/) — a more structured look at individual pieces of the lab
-  (services, automation, infrastructure-as-code, etc.)
+A more structured look at individual pieces of the lab (services, automation, infrastructure-as-code, etc.)
+
+[Have a look at all my projects here.](/homelab-site/projects)
+
+### Posts
+
+Build logs, troubleshooting notes, and snapshots of components as I'm building them out.
