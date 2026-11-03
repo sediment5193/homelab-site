@@ -29,7 +29,7 @@ A quick snapshot of what's currently running:
     - CPU — ?
     - GPU — Integrated
     - RAM — 8Gb
-    - HD — Samsung 880 Pro SSD
+    - HD — Samsung 880 Pro 1TB SSD
 
 - **Hypervisors:** 
   - Proxmox — The type 1 hypervisor everything is built on

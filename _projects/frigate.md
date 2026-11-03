@@ -1,5 +1,5 @@
 ---
-title: "Smart Petcam"
+title: "smart Petcam"
 date: 2026-07-15
 category: "Services: Day to Day"
 excerpt: "Local, AI powered, network video recorder"

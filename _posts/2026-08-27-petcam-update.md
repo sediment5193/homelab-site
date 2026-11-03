@@ -8,7 +8,9 @@ excerpt: "Why buy a security camera when a webcam does the trick?"
 
 ## Overview
 
-This is a follow up to my [previous post which you can read about here to get up to speed.](/homelab-site/posts/2026/07/27/localized-pet-cam/) My buddy read my previous post and had a great suggestion. He was concerned about how my hardware would handle real time AI image processing and had the idea of testing the idea out with existing hardward. After some thought, I pulled out an old USB webcam and thought longingly about how simple my life was before I started homelabbing.
+This is a follow up to my [previous post which you can read about here to get up to speed.](/homelab-site/posts/2026/07/27/localized-pet-cam/) 
+
+My buddy read my previous post and had a great suggestion. He was concerned about how my hardware would handle real time AI image processing and had the idea of testing the idea out with existing hardware. After some thought, I pulled out an old USB webcam and pondered longingly about how simple my life was before I started homelabbing.
 
 Using a wired webcam has the obvious limitation of reducing where I can place this camera to about 5' or 6' from my server. Fortunately my servers are in the living room which is exactly where I wanted to place the camera anyway. So that works out.
 
@@ -154,19 +156,19 @@ Once Frigate is fired up, it should have access to everything it needs to get th
     </code>
 </pre>
 
-This results in the webcam only recording when it detects a cat. The recordings are retained for 3 days and then automatically deleted. I decided on an input reoslution of 720p at 15 fps. I'm then downsampling that to 480p at 5 fps for the detection portion of the process. 
+This results in the webcam only recording when it detects a cat. The recordings are retained for 3 days and then automatically deleted. I decided on an input resolution of 720p at 15 fps. I'm then downsampling that to 480p at 5 fps for the detection portion of the process. 
 
-This downsampling procoess causes a bit of a CPU hit, but massively frees up the GPU for detections. It also limits the distance from the camera that an object can be detected reliably, but I'm recording a cat in a 1 bedroom apartment so it's really not an issue for me. Once a detection happens, I'm then recording at the full input resolution.
+This downsampling process causes a bit of a CPU hit, but massively frees up the GPU for detections. It also limits the distance from the camera that an object can be detected reliably, but I'm recording a cat in a 1 bedroom apartment so it's really not an issue for me. Once a detection happens, I'm then recording at the full input resolution.
 
-When it's all said and done, I'm avergaing about 10% to 15% on the CPU and GPU with an inference speed of less than 15ms. I could further improve these numbers by adding an external TPU to my system, but I'm fine with this and TPU's aren't free.
+When it's all said and done, I'm averaging about 8% to 11% on the CPU and GPU with an inference speed of less than 14ms. I could further improve these numbers by adding an external TPU to my system, but I'm fine with this and TPU's aren't particularly cheap.
 
 So far everything is working very smoothly and detections are very reliable. Like many webcams, there's poor low-light performance and a lack of PTZ. I really just want to make sure my cat is still kicking it while I'm out of town. So I don't think I'll need to buy an extra camera or TPU after all.
 
 ## Next Steps
 
-First I'd like to measure how much storage space the recordings actually take. With the automated retention policy, I feel like I can dial that in pretty nicely.
+First I'd like to measure how much storage space the recordings actually take up. With the automated retention policy, I feel like I can dial that in pretty nicely.
 
-Then I'd like to get this tied in with Home Assistant for smarter notifications and all the automations. I'll need to setup an MQTT broker to get that going. I'll follow up with more on that once it's working.
+Then I'd like to get this tied in with Home Assistant for smarter notifications and all the automations that comes with. I'll need to setup an MQTT broker to get that going. I'll follow up with more on that once it's working.
 
 I'd also potentially like to add a doorbell camera since we've got so much headroom with the current setup. That's not a super high priority for now and will ultimately depend on how much storage space the webcam needs.
 
