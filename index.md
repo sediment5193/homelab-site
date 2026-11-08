@@ -4,7 +4,7 @@ title: "The Homelab Files"
 author_profile: true
 ---
 
-Hey, I'm Ben, a Customer Support Engineer at Checkr. This site is where I document my homelab and, over time, the IT work I'm building around it.
+Hey, I'm Ben, a Support Engineer solving complex technical problems escalated by Customer Support and CSMs. I have asiprations of getting into Infra Engineering down the road. This site is where I document my homelab and, over time, the IT work I'm building around it.
 
 ## What's here
 
